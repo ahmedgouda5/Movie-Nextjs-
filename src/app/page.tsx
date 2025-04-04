@@ -46,7 +46,7 @@ const Home = () => {
         initial={{ opacity: 0, y: 80 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }} className="text-center mt-12 ">
-        <h2 className="text-xl font-semibold  text-white">Featured Movies</h2>
+        <h2 className="text-xl font-semibold  text-white">Featured Moviess</h2>
         <p className="text-gray-300  text-lg mt-2 ">
           Explore the latest additions to our collection.
         </p>
