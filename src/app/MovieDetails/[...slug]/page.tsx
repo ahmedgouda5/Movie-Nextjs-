@@ -39,6 +39,7 @@ const FilmPage = () => {
         const res = await fetch(
           `https://api.themoviedb.org/3/movie/${slug}`,
           options
+          // eslint-disable-next-line react-hooks/exhaustive-deps
         );
         if (!res.ok) throw new Error("Failed to fetch movie details");
 
